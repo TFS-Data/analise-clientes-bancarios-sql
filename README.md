@@ -6,7 +6,7 @@
 
 ## Visão Geral
 
-Este projeto simula uma análise de dados no contexto bancário, com foco em entender o comportamento financeiro dos clientes, identificar perfis de alto valor e detectar possíveis riscos de inadimplência.
+Este projeto apresenta uma análise exploratória de dados no contexto bancário, com foco em entender o comportamento financeiro dos clientes, identificar perfis de alto valor e detectar possíveis riscos de inadimplência.
 
 ---
 
@@ -122,9 +122,15 @@ ORDER BY total_gasto DESC;
 
 ## Conclusão
 
-A análise permitiu identificar diferentes perfis de clientes com base em seu comportamento financeiro. Foi possível destacar clientes com alta movimentação, além de detectar possíveis riscos de crédito a partir da combinação entre score e volume de gastos.
+A análise dos dados permitiu identificar padrões relevantes no comportamento financeiro dos clientes.
 
-Esses insights podem auxiliar instituições financeiras na tomada de decisão, direcionamento de produtos e gestão de risco.
+Foi possível observar diferenças claras entre clientes com alta movimentação financeira e aqueles com menor volume de transações, permitindo uma primeira segmentação baseada em valor.
+
+Além disso, a combinação entre score de crédito e volume de gastos possibilitou a identificação de clientes com potencial risco de inadimplência, o que pode ser utilizado como critério para revisão de limites e concessão de crédito.
+
+Com base nesses insights, o banco pode direcionar melhor suas estratégias, tanto para retenção de clientes de alto valor quanto para mitigação de riscos associados a perfis mais sensíveis.
+
+Este tipo de análise é essencial para apoiar decisões orientadas por dados no contexto financeiro.
 
 ---
 
