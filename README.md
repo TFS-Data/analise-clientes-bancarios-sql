@@ -134,6 +134,14 @@ Este tipo de análise é essencial para apoiar decisões orientadas por dados no
 
 ---
 
+##  Insights de Negócio
+
+O cruzamento de dados realizado nestas queries permite que uma instituição financeira saia de uma análise estática e passe para uma análise preditiva:
+
+1. **Mitigação de Risco:** Clientes com score baixo (< 600) que apresentam alto volume de gastos são sinalizados para revisão de limite, evitando possíveis calotes.
+2. **Oportunidades de Upsell:** Clientes com alta renda e score elevado que transacionam pouco podem ser alvo de campanhas para aumentar o uso do cartão/conta (LTV).
+3. **Eficiência Operacional:** A automação dessas consultas via SQL permite um monitoramento constante da saúde da carteira de clientes, baseando decisões em dados reais em vez de suposições.
+
 ## Glossário de Termos
 
 **Score de crédito**  
@@ -154,3 +162,15 @@ Débito: saída de dinheiro
 
 **Valor médio das transações**  
 Média dos valores gastos por um cliente em suas transações, indicando seu padrão de consumo.
+
+**Mitigação de Risco
+Ações preventivas para reduzir a probabilidade ou o impacto de perdas financeiras. No projeto, isso é feito identificando clientes de score baixo e alto consumo antes que a inadimplência ocorra.
+
+**Upsell
+Estratégia comercial que consiste em oferecer ao cliente um produto de categoria superior ou um aumento de limite, baseado no seu bom comportamento (Ex: clientes com Renda e Score altos).
+
+**LTV (Lifetime Value)
+Estimativa do valor total que um cliente gera para a empresa durante todo o tempo de relacionamento. Clientes com alto LTV são prioridade para estratégias de retenção.
+
+**Behavioral Scoring
+Modelo de pontuação baseado no comportamento atual do cliente (como ele gasta) e não apenas no seu histórico passado, permitindo uma análise muito mais precisa e em tempo real.
